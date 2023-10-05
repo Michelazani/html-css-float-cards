@@ -33,56 +33,37 @@ body{
 .first-cell{
     background-color: black;
     height: 100px;
-    width: 300px;
+    width: 330px;
     float: left;
     margin: 40px 10px;
 }
 
-.first-box{
-    background-image: url(../img/male1.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+.avatar{
+    float: left;
+    height: 100%;
+    
 }
 
-.second-box{
-    background-image: url(../img/female1.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+.contents{
+    float: left;
 }
-
-.third-box{
-    background-image: url(../img/male2.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.fourth-box{
-    background-image: url(../img/female2.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.fifth-box{
-    background-image: url(../img/male3.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.sixth-box{
-    background-image: url(../img/female3.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
 .name{
     color: white;
     font-size: small;
+    text-align: left;
+    padding-top: 2%;
 }
 
 .description{
     color: white;
+    text-align: left;
+    padding-top: 2%;
+
 }
 
 .mail{
     color: lightblue;
+    text-align: left;
+    padding-top: 2%;
+
 }
