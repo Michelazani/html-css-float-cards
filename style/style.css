@@ -3,3 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Fredoka', sans-serif;}
+
+.text-pink-bold{
+    font-weight: bolder;
+    color: rgb(232, 95, 186);
+}
+
