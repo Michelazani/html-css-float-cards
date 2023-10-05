@@ -33,7 +33,7 @@ body{
 .first-cell{
     background-color: black;
     height: 100px;
-    width: 330px;
+    width: 340px;
     float: left;
     margin: 40px 10px;
 }
@@ -46,24 +46,23 @@ body{
 
 .contents{
     float: left;
+    padding-left: 5%;
+    padding-top: 3%;
+
 }
 .name{
     color: white;
     font-size: small;
     text-align: left;
-    padding-top: 2%;
+
 }
 
 .description{
     color: white;
     text-align: left;
-    padding-top: 2%;
-
 }
 
 .mail{
     color: lightblue;
     text-align: left;
-    padding-top: 2%;
-
 }
