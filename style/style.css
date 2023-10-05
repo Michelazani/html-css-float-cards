@@ -5,10 +5,21 @@
 }
 
 body{
-    font-family: 'Fredoka', sans-serif;}
+    font-family: 'Fredoka', sans-serif;
+    margin-top: 60px;
+    text-align: center;
+    width: 900px;
+    height: 700px;
+    margin-left: 300px;
+
+
+}
 
 .text-pink-bold{
-    font-weight: bolder;
+    font-weight:bolder;
     color: rgb(232, 95, 186);
 }
 
+.intro{
+    padding-top: 50px;
+}
