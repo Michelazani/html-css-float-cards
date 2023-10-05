@@ -8,12 +8,12 @@ body{
     font-family: 'Fredoka', sans-serif;
     margin-top: 60px;
     text-align: center;
-    width: 900px;
+    line-height: 1.5rem;
+    width: 1100px;
     height: 700px;
-    margin-left: 300px;
-
-
+    margin-left: 240px;
 }
+
 
 .text-pink-bold{
     font-weight:bolder;
@@ -22,4 +22,54 @@ body{
 
 .intro{
     padding-top: 50px;
+}
+
+.container{
+    contain: ;
+    display: block;
+    clear: both;
+}
+
+.first-cell{
+    background-color: black;
+    height: 100px;
+    width: 300px;
+    float: left;
+    margin: 40px 10px;
+}
+
+.first-box{
+    background-image: url(../img/male1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.second-box{
+    background-image: url(../img/female1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.third-box{
+    background-image: url(../img/male2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.fourth-box{
+    background-image: url(../img/female2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.fifth-box{
+    background-image: url(../img/male3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sixth-box{
+    background-image: url(../img/female3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
