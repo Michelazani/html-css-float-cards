@@ -73,3 +73,13 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+.name{
+    color: white;
+    font-size: small;
+    padding: 2% 3%;
+}
+
+.description{
+    color: white;
+}
