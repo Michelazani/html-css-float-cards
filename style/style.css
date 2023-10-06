@@ -32,14 +32,14 @@ body{
 
 .first-cell{
     background-color: black;
-    width: calc(100% /3);
+    width: calc(100% / 3 - 80px);
     float: left;
     margin: 40px ;
 }
 
 .avatar{
     float: left;
-    height: 100%;
+    width: 28%;
     
 }
 
@@ -47,6 +47,7 @@ body{
     float: right;
     padding-left: 5%;
     padding-top: 3%;
+    width: 72%;
 
 }
 .name{
