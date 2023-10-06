@@ -6,16 +6,16 @@
 
 body{
     font-family: 'Fredoka', sans-serif;
-    margin-top: 60px;
     text-align: center;
     line-height: 1.5rem;
-    width: 1100px;
+    max-width: 1100px;
     height: 700px;
-    margin-left: 240px;
+    margin:auto;
 }
 
 
 .text-pink-bold{
+    margin-top: 60px;
     font-weight:bolder;
     color: rgb(232, 95, 186);
 }
@@ -32,10 +32,9 @@ body{
 
 .first-cell{
     background-color: black;
-    height: 100px;
-    width: 340px;
+    width: calc(100% /3);
     float: left;
-    margin: 40px 10px;
+    margin: 40px ;
 }
 
 .avatar{
@@ -45,7 +44,7 @@ body{
 }
 
 .contents{
-    float: left;
+    float: right;
     padding-left: 5%;
     padding-top: 3%;
 
